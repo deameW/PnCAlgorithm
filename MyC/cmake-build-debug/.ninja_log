@@ -1,0 +1,8 @@
+# ninja log v5
+6	798	7328651733198308	CMakeFiles/MyC.dir/Solution.cpp.obj	dfe7f40ec4d1809b
+2	237	7332290912165661	CMakeFiles/MyC.dir/main.cpp.obj	c5eddb4fd72337f2
+3	1104	7328651736259133	CMakeFiles/MyC.dir/path_planning/Djkstra.cpp.obj	25a2ae03392730d3
+888	1367	7332353005438140	MyC.exe	1ccaa14e243cd5e9
+0	507	7338205086817210	build.ninja	ae6261d293e7967c
+2	886	7332353000645728	CMakeFiles/MyC.dir/path_planning/Astar/Astar.cpp.obj	60a134f5712df8ea
+2	392	7332293708826938	CMakeFiles/MyC.dir/path_planning/Dijstra/Djkstra.cpp.obj	5a81eb88f128132c
