@@ -1,0 +1,3 @@
+D:/GitRepo-2024/MyC/cmake-build-debug/CMakeFiles/MyC.dir
+D:/GitRepo-2024/MyC/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/GitRepo-2024/MyC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
