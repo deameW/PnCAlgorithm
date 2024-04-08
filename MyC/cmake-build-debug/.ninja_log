@@ -1,8 +1,13 @@
 # ninja log v5
-6	798	7328651733198308	CMakeFiles/MyC.dir/Solution.cpp.obj	dfe7f40ec4d1809b
+5	1474	7339204298560515	CMakeFiles/MyC.dir/some_test/Test.cpp.obj	919c8238d596b87f
 2	237	7332290912165661	CMakeFiles/MyC.dir/main.cpp.obj	c5eddb4fd72337f2
+6	798	7328651733198308	CMakeFiles/MyC.dir/Solution.cpp.obj	dfe7f40ec4d1809b
 3	1104	7328651736259133	CMakeFiles/MyC.dir/path_planning/Djkstra.cpp.obj	25a2ae03392730d3
-888	1367	7332353005438140	MyC.exe	1ccaa14e243cd5e9
-0	507	7338205086817210	build.ninja	ae6261d293e7967c
-2	886	7332353000645728	CMakeFiles/MyC.dir/path_planning/Astar/Astar.cpp.obj	60a134f5712df8ea
+814	1046	7339204485279133	MyC.exe	c282760b4b7f6e2e
+114	1518	7342874782890273	build.ninja	ae6261d293e7967c
+2	814	7339204483043964	CMakeFiles/MyC.dir/path_planning/Astar/Astar.cpp.obj	60a134f5712df8ea
 2	392	7332293708826938	CMakeFiles/MyC.dir/path_planning/Dijstra/Djkstra.cpp.obj	5a81eb88f128132c
+23	2676	7342884029866297	CMakeFiles/MyC.dir/some_test/Test.cpp.obj	919c8238d596b87f
+99	3132	7342884035015339	CMakeFiles/MyC.dir/heuristic_search/genetic_algorithm/genetic.cpp.obj	1cbe3b7171c7eedf
+3	580	7342884168092512	CMakeFiles/MyC.dir/some_test/Test.cpp.obj	919c8238d596b87f
+580	809	7342884170345691	MyC.exe	a65721fd2b3395e8

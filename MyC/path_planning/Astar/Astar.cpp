@@ -116,41 +116,41 @@ vector<Node*> AStar(Node* start, Node* goal, const vector<vector<int>>& grid) {
     return vector<Node*>(); // 如果无法找到路径，则返回空路径
 }
 
-int main() {
-    // 创建地图，并假设障碍物为1，可行区域为0
-    vector<vector<int>> grid = {
-            {0, 0, 0, 0, 0},
-            {0, 1, 1, 0, 0},
-            {0, 0, 1, 0, 0},
-            {0, 0, 0, 0, 0},
-            {0, 0, 0, 0, 0}
-    };
-
-    // 创建起点和终点
-    Node* start = new Node(0, 0);
-    Node* goal = new Node(4, 4);
-
-    // 运行 A* 算法
-    vector<Node*> path = AStar(start, goal, grid);
-
-    // 输出路径
-    if (path.empty()) {
-        cout << "No path found!" << endl;
-    } else {
-        cout << "Path found:" << endl;
-        for (int i = path.size() - 1; i >= 0; --i) {
-            cout << "(" << path[i]->x << ", " << path[i]->y << ")";
-            if (i > 0) cout << " -> ";
-        }
-        cout << endl;
-    }
-
-    // 释放内存
-    delete start;
-    delete goal;
-    for (auto node : path) {
-        delete node;
-    }
-
-    return 0;
-}
+//int main() {
+//    // 创建地图，并假设障碍物为1，可行区域为0
+//    vector<vector<int>> grid = {
+//            {0, 0, 0, 0, 0},
+//            {0, 1, 1, 0, 0},
+//            {0, 0, 1, 0, 0},
+//            {0, 0, 0, 0, 0},
+//            {0, 0, 0, 0, 0}
+//    };
+//
+//    // 创建起点和终点
+//    Node* start = new Node(0, 0);
+//    Node* goal = new Node(4, 4);
+//
+//    // 运行 A* 算法
+//    vector<Node*> path = AStar(start, goal, grid);
+//
+//    // 输出路径
+//    if (path.empty()) {
+//        cout << "No path found!" << endl;
+//    } else {
+//        cout << "Path found:" << endl;
+//        for (int i = path.size() - 1; i >= 0; --i) {
+//            cout << "(" << path[i]->x << ", " << path[i]->y << ")";
+//            if (i > 0) cout << " -> ";
+//        }
+//        cout << endl;
+//    }
+//
+//    // 释放内存
+//    delete start;
+//    delete goal;
+//    for (auto node : path) {
+//        delete node;
+//    }
+//
+//    return 0;
+//}

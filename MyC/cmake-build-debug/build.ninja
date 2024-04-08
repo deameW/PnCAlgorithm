@@ -49,12 +49,6 @@ cmake_ninja_workdir = D$:/GitRepo-2024/MyC/cmake-build-debug/
 
 build cmake_object_order_depends_target_MyC: phony || CMakeFiles/MyC.dir
 
-build CMakeFiles/MyC.dir/Solution.cpp.obj: CXX_COMPILER__MyC_unscanned_Debug D$:/GitRepo-2024/MyC/Solution.cpp || cmake_object_order_depends_target_MyC
-  DEP_FILE = CMakeFiles\MyC.dir\Solution.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\MyC.dir
-  OBJECT_FILE_DIR = CMakeFiles\MyC.dir
-
 build CMakeFiles/MyC.dir/path_planning/Dijstra/Djkstra.cpp.obj: CXX_COMPILER__MyC_unscanned_Debug D$:/GitRepo-2024/MyC/path_planning/Dijstra/Djkstra.cpp || cmake_object_order_depends_target_MyC
   DEP_FILE = CMakeFiles\MyC.dir\path_planning\Dijstra\Djkstra.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
@@ -67,6 +61,18 @@ build CMakeFiles/MyC.dir/path_planning/Astar/Astar.cpp.obj: CXX_COMPILER__MyC_un
   OBJECT_DIR = CMakeFiles\MyC.dir
   OBJECT_FILE_DIR = CMakeFiles\MyC.dir\path_planning\Astar
 
+build CMakeFiles/MyC.dir/some_test/Test.cpp.obj: CXX_COMPILER__MyC_unscanned_Debug D$:/GitRepo-2024/MyC/some_test/Test.cpp || cmake_object_order_depends_target_MyC
+  DEP_FILE = CMakeFiles\MyC.dir\some_test\Test.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MyC.dir
+  OBJECT_FILE_DIR = CMakeFiles\MyC.dir\some_test
+
+build CMakeFiles/MyC.dir/heuristic_search/genetic_algorithm/genetic.cpp.obj: CXX_COMPILER__MyC_unscanned_Debug D$:/GitRepo-2024/MyC/heuristic_search/genetic_algorithm/genetic.cpp || cmake_object_order_depends_target_MyC
+  DEP_FILE = CMakeFiles\MyC.dir\heuristic_search\genetic_algorithm\genetic.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MyC.dir
+  OBJECT_FILE_DIR = CMakeFiles\MyC.dir\heuristic_search\genetic_algorithm
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target MyC
@@ -75,7 +81,7 @@ build CMakeFiles/MyC.dir/path_planning/Astar/Astar.cpp.obj: CXX_COMPILER__MyC_un
 #############################################
 # Link the executable MyC.exe
 
-build MyC.exe: CXX_EXECUTABLE_LINKER__MyC_Debug CMakeFiles/MyC.dir/Solution.cpp.obj CMakeFiles/MyC.dir/path_planning/Dijstra/Djkstra.cpp.obj CMakeFiles/MyC.dir/path_planning/Astar/Astar.cpp.obj
+build MyC.exe: CXX_EXECUTABLE_LINKER__MyC_Debug CMakeFiles/MyC.dir/path_planning/Dijstra/Djkstra.cpp.obj CMakeFiles/MyC.dir/path_planning/Astar/Astar.cpp.obj CMakeFiles/MyC.dir/some_test/Test.cpp.obj CMakeFiles/MyC.dir/heuristic_search/genetic_algorithm/genetic.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\MyC.dir
